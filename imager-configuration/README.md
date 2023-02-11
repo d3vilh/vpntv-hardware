@@ -19,7 +19,7 @@ Step-by-step instructions for configuring Raspberry Pi Imager for use with the R
 
    <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.0.png" alt="RaspiOS Imager main window" width="600" border="1" />
 
-    3. Click on the `"GEARBOX"` Icon (Step3) to open the "Advanced Options" window and configure the following options:
+    3. Click on the `"GEARBOX"` (Step3) icon to open the "Advanced Options" window and configure the following options:
     <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.1.png" alt="Step3.0" width="600" border="1" /> 
 
     <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.2.png" alt="Step3.1" width="600" border="1" />
@@ -30,5 +30,7 @@ Step-by-step instructions for configuring Raspberry Pi Imager for use with the R
 
     > **Note**:  Set desired TimeZone and Keyboard layout.
 
-    4. Click on the `"WRITE"` button (Step4!) to start SD-CARD formatting and OS installation.:
+    4. Click on the `"WRITE"` (Step4!) button to start SD-CARD formatting and OS installation.:
    <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.0.png" alt="RaspiOS Imager main window" width="600" border="1" />
+
+    5. When verification process will be completed you will be prompted to remove the SD card from your computer and insert it into your Raspberry Pi. 
