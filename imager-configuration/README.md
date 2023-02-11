@@ -13,13 +13,15 @@ Step-by-step instructions for configuring Raspberry Pi Imager for use with the R
 
     <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.0.2.png" alt="Step1.1" width="600" border="1" />
 
-    2. Select the SD card you want to install the operating system on.
+    2. Select the SD card you want to install the operating system on by click to "CHOOSE STORAGE" button.
    
     3. Click on the "GEARBOX" Icon to open the "Advanced Options" window and configure the following options:
     <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.1.png" alt="Step3.0" width="600" border="1" /> 
 
     <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.2.png" alt="Step3.1" width="600" border="1" />
+
     > **NOTE:** Set own password for vpntv user and configure your own local WiFi network you are using for Internet conncetion.   
 
-    <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.3.png" alt="Step3.2" width="600" border="1" />   
+    <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.3.png" alt="Step3.2" width="600" border="1" />
+
     > **NOTE:** Set desired TimeZone and Keyboard layout.
