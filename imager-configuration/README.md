@@ -3,7 +3,7 @@ Step-by-step instructions for configuring Raspberry Pi Imager for use with the R
 
 1. Download and install the latest version of Raspberry Pi Imager from the [official website](https://www.raspberrypi.org/software/).
 2. Insert SD card into your computer.
-3. Open Raspberry Pi Imager and click on the `"CHOOSE OS"` button (Step1).:
+3. Open Raspberry Pi Imager and click on the `"CHOOSE OS"` (Step1) button .:
    
    <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.0.png" alt="RaspiOS Imager main window" width="600" border="1" />
 
