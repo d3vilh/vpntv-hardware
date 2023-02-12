@@ -14,8 +14,8 @@ Hardware Options for vpntv project
   * D-Link DWA-123 Wireless N 150 USB Adapter(rev.D)
   * D-Link GO-USB-N150 Wireless N 150 Easy USB Adapter(rev.B)
   * D-Link DWA-121 Wireless N 150 USB Adapter(rev.B)
-  * [Realtek RTL8188EU](https://a.aliexpress.com/_Ew27JPn) Wireless LAN 802.11n USB 2.0 Network Adapter
-  * Realtek RTL8188EUS Wireless LAN 802.11n USB 2.0 Network Adapter
+  * Realtek RTL8188EU Wireless LAN 802.11n USB 2.0 Network Adapter
+  * [Realtek RTL8188EUS](https://a.aliexpress.com/_Ew27JPn) Wireless LAN 802.11n USB 2.0 Network Adapter
   * Realtek RTL8188ETV Wireless LAN 802.11n USB 2.0 Network Adapter
   * 802.11bgn Mini Wireless LAN USB2.0 Adapter
   * ELECOM WDC-150SU2M Wireless Adapter
