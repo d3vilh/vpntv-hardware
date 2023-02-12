@@ -2,7 +2,7 @@
 Hardware Options for vpntv project
 <details>
   <summary>
-    ### Supported WiFi adapters
+    **Supported WiFi adapters**
   </summary>
   
   * TP-Link TL-WN722N V2/V3 150Mbps High Gain Wireless USB Adapter
