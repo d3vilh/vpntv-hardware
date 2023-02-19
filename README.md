@@ -37,7 +37,7 @@ Hardware Options for vpntv project
 
    <details>
      <summary>
-       Supported Raspberry Pi Zero W USB and Ethernet hats.
+       Supported (and tested) Raspberry Pi Zero W USB and Ethernet hats.
      </summary>
   
   * [WaveShare ETH/USB HUB](https://www.waveshare.com/product/raspberry-pi/hats/interface-power/eth-usb-hub-hat-b.htm) HAT for RPi Zero. [Aliexpress link](https://a.aliexpress.com/_EJGKaqH)
