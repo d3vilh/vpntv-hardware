@@ -13,13 +13,13 @@ Step-by-step instructions for configuring Raspberry Pi Image for use with the [V
    
     <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.0.1.png" alt="Step1.0" width="600" border="1" />
 
-    2. Then select the `"Raspberry Pi OS Lite (64-bit) with no Desktop env"` version of the operating system you need to install:
+    2. Then select the `"Raspberry Pi OS Lite (64-bit) with no Desktop env"` version:
 
     <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.0.2.png" alt="Step1.1" width="600" border="1" />
 
     > **Note**: For the Raspberry Pi Zero W1 you must to go with the **RaspiOS Lite (32-bit) with no Desktop env** version, as shown on the screenshot above. 
 
-4. Select the SD card you want to install the operating system on by click to `"CHOOSE STORAGE"` (Step2) button.
+4. Select the SD card you want to install the operating system on by click to `"CHOOSE STORAGE"` (Step2) button:
 
    <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.0.png" alt="RaspiOS Imager main window" width="600" border="1" />
 
