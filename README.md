@@ -72,7 +72,7 @@ Connecting TV to VPNTV's new WiFi network while VPNTV connected to your home rou
 </details>
 
 - [**Raspios Lite (64-bit)**](https://downloads.raspberrypi.org/raspios_lite_arm64/images/) or [**Raspios Lite (32-bit)**](https://downloads.raspberrypi.org/raspios_lite_armhf/images/) for setup on Raspberry Pi Zero W (ver.1) boards.
-For the installation guide refer to [**Raspberry Pi Image configurtion**](https://github.com/d3vilh/vpntv-hardware/tree/main/imager-configuration/README-eth2wifi.md) document.
+For the installation guide refer to [**Raspberry Pi Image configurtion for Ethernet 2 WiFi**](https://github.com/d3vilh/vpntv-hardware/tree/main/imager-configuration/README-eth2wifi.md) document.
 
 ## WiFi to Ethernet bridge
 Connecting TV over Ethernet to VPNTV's Ethernet port, while VPNTV itself connected to your home WiFi network.
