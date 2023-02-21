@@ -28,7 +28,7 @@ Step-by-step instructions for configuring Raspberry Pi Image for use with the [V
       <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.1.png" alt="Step3.0" width="600" border="1" /> 
 
    2. Set the uniq password for the `vpntv` user. For example, `Uniqu3_pa$Sword!:|` do not configure WiFi SSID and go straight to the next step:
-      > **Note**: **WiFi to WiFi** If you are using **Wireless Connection Type 2** - set the SSID of your local WiFi network which you are using for Internet conncetion. 
+      > **Note**: If you are using **Wireless Connection Type 2** (WiFi to WiFi) or **Wired Connection** (WiFi to Ethernet) - set the SSID and password of your local WiFi network, which you are using for the Internet connection. 
 
       <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.2.png" alt="Step3.1" width="600" border="1" />
 
