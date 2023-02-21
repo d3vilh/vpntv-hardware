@@ -3,6 +3,7 @@ VPNTV supports different kinds of wifi and ethernet bridging options for variety
 
 ## Ethernet to WiFi bridge
 **Prefferable setup**. Connecting TV to VPNTV's new WiFi network while VPNTV connected to your home router by Ethernet cable.
+
 <img src="https://github.com/d3vilh/vpntv/raw/main/images/vpntv-wireless.png" alt="wireless connection type1" width="350" border="1" /> 
 
 #### Hardware requirements:
@@ -28,6 +29,7 @@ For the installation guide refer to [**Raspberry Pi Image configurtion for Ether
 ## WiFi to WiFi bridge. 
 **Full Wireless solution**, no wires allowed :)
 Connecting TV to VPNTV's new WiFi network while VPNTV itself connected to your home WiFi network.
+
 <img src="https://github.com/d3vilh/vpntv/raw/main/images/vpntv-wireless2.png" alt="wireless connection type 2" width="350" border="1" /> 
 
 #### Hardware requirements:
@@ -77,6 +79,7 @@ For the installation guide refer to [**Raspberry Pi Image configurtion**](https:
 
 ## WiFi to Ethernet bridge
 Connecting TV over Ethernet to VPNTV's Ethernet port, while VPNTV itself connected to your home WiFi network.
+
 <img src="https://github.com/d3vilh/vpntv/raw/main/images/vpntv-wired.png" alt="wired connection" width="350" border="1" /> 
 
 #### Hardware requirements:
