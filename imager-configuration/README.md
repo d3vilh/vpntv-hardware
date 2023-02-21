@@ -41,7 +41,7 @@ Step-by-step instructions for configuring Raspberry Pi Image for use with the [V
 7. When verification process will be completed you will be prompted to remove the SD card from your computer and insert it into your Raspberry Pi. 
 
 8. Plug your Raspberry Pi to the power supply and Ethernet port of your router then wait for the first boot, it can take up to the 5 minutes, depends on Raspberry board you are using.
-   > **Note**: If you are using **Wireless Connection Type 2**, full wireless connection, you don't need to connect Ethernet port to router. 
+   > **Note**: If you are using **Wireless Connection Type 2** or **Wired connection**, you don't need to connect Ethernet port to router. 
 
 9. Connect to your Raspberry Pi with ssh client, using the user `vpntv` and password you setup on the point 5.1:
    ```bash
