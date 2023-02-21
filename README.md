@@ -24,7 +24,7 @@ VPNTV supports different kinds of wifi and ethernet bridging options for variety
 </details>
 
 - [**Raspios Lite (64-bit)**](https://downloads.raspberrypi.org/raspios_lite_arm64/images/) or [**Raspios Lite (32-bit)**](https://downloads.raspberrypi.org/raspios_lite_armhf/images/) for setup on Raspberry Pi Zero W (ver.1) boards.
-For the installation guide refer to [**Raspberry Pi Image configurtion for Ethernet 2 WiFi**](https://github.com/d3vilh/vpntv-hardware/tree/main/imager-configuration/README-eth2wifi.md) document.
+For the installation guide refer to [**Raspberry Pi Image configurtion**](https://github.com/d3vilh/vpntv-hardware/tree/main/imager-configuration/README.md) document.
 
 ## WiFi to WiFi bridge. 
 **Full Wireless solution**, no wires allowed :)
