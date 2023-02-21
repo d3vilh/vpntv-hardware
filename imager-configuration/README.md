@@ -27,10 +27,10 @@ Step-by-step instructions for configuring Raspberry Pi Image for use with the [V
    1. Set the hostname of your Raspberry Pi. For example, `vpntv`:
     <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.1.png" alt="Step3.0" width="600" border="1" /> 
 
-   2. Set the uniq password for the `vpntv` user. For example, `Uniqu3_pa$Sword!:)` and set the SSID of your local WiFi network which you are using for Internet conncetion:
-      > **Note for Ethernet to WiFi**: If you are using **Wireless Connection Type 2** option - do not configure WiFi SSID and go straight to the next step. 
+   2. Set the uniq password for the `vpntv` user. For example, `Uniqu3_pa$Sword!:|` do not configure WiFi SSID and go straight to the next step:
+      > **Note**: **WiFi to WiFi** If you are using **Wireless Connection Type 2** - set the SSID of your local WiFi network which you are using for Internet conncetion. 
 
-    <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.2.png" alt="Step3.1" width="600" border="1" />
+      <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.2.png" alt="Step3.1" width="600" border="1" />
 
    3. Set desired TimeZone and Keyboard layout:  
     <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.3.png" alt="Step3.2" width="600" border="1" />
@@ -40,7 +40,8 @@ Step-by-step instructions for configuring Raspberry Pi Image for use with the [V
 
 7. When verification process will be completed you will be prompted to remove the SD card from your computer and insert it into your Raspberry Pi. 
 
-8. Plug your Raspberry Pi to the power supply and Ethernet port of your router (in case of **Wireless Connection Type 2** option) then wait for the first boot, it can take up to the 5 minutes, depends on board you are using.
+8. Plug your Raspberry Pi to the power supply and Ethernet port of your router then wait for the first boot, it can take up to the 5 minutes, depends on Raspberry board you are using.
+   > **Note**: If you are using **Wireless Connection Type 2**, full wireless connection, you don't need to connect Ethernet port to router. 
 
 9. Connect to your Raspberry Pi with ssh client, using the user `vpntv` and password you setup on the point 5.1:
    ```bash

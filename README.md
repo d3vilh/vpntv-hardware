@@ -1,9 +1,34 @@
 # VPNTV Hardware Requirements Guide
 VPNTV supports different kinds of wifi and ethernet bridging options for variety Raspberry Pi boards and hats. All of them are described below.
 
+## Ethernet to WiFi bridge
+**Prefferable setup**. Connecting TV to VPNTV's new WiFi network while VPNTV connected to your home router by Ethernet cable.
+<img src="https://github.com/d3vilh/vpntv/raw/main/images/vpntv-wireless.png" alt="wireless connection type1" width="350" border="1" /> 
+
+#### Hardware requirements:
+- [**Raspberry Pi Zero W**](https://www.raspberrypi.org/products/raspberry-pi-zero-w/) or [**Raspberry Pi Zero W2**](https://www.raspberrypi.org/products/raspberry-pi-zero-w-2/) board, all with 512Mb RAM minimum.
+- Or [**Raspberry Pi 4**](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/), [**Raspberry Pi CM4**](https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4001000) **and** [**CM4 I/O Board**](https://www.raspberrypi.com/products/compute-module-4-io-board/) or [**Raspberry Pi 3**](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/) board, all with 1Gb RAM minimum.
+- **8Gb SD Card**
+  > You can run vpntv on CM4 board with 4Gb eMMC EEPROM chip as well.
+
+- **USB Ethernet Hat** (for Raspberry Pi Zero W boards only)
+
+   <details>
+     <summary>
+       Supported (and tested) Raspberry Pi Zero W USB and Ethernet hats.
+     </summary>
+  
+  * [WaveShare ETH/USB HUB](https://www.waveshare.com/product/raspberry-pi/hats/interface-power/eth-usb-hub-hat-b.htm) HAT for RPi Zero. [Aliexpress link](https://a.aliexpress.com/_EJGKaqH)
+  * [Elecrow USB Hub & PowerManager](https://www.elecrow.com/usb-hub-powermanager-for-rpi-zero-v1-0.html) for RPi Zero V1.0. [Aliexpress link](https://a.aliexpress.com/_Exj5Rvf)
+</details>
+
+- [**Raspios Lite (64-bit)**](https://downloads.raspberrypi.org/raspios_lite_arm64/images/) or [**Raspios Lite (32-bit)**](https://downloads.raspberrypi.org/raspios_lite_armhf/images/) for setup on Raspberry Pi Zero W (ver.1) boards.
+For the installation guide refer to [**Raspberry Pi Image configurtion for Ethernet 2 WiFi**](https://github.com/d3vilh/vpntv-hardware/tree/main/imager-configuration/README-eth2wifi.md) document.
+
 ## WiFi to WiFi bridge. 
+**Full Wireless solution**, no wires allowed :)
 Connecting TV to VPNTV's new WiFi network while VPNTV itself connected to your home WiFi network.
-<img src="https://github.com/d3vilh/vpntv/raw/main/images/vpntv-wireless.png" alt="wireless connection type 1" width="350" border="1" /> 
+<img src="https://github.com/d3vilh/vpntv/raw/main/images/vpntv-wireless2.png" alt="wireless connection type 2" width="350" border="1" /> 
 
 #### Hardware requirements:
 - [**Raspberry Pi Zero W**](https://www.raspberrypi.org/products/raspberry-pi-zero-w/) or [**Raspberry Pi Zero W2**](https://www.raspberrypi.org/products/raspberry-pi-zero-w-2/) board, all with 512Mb RAM minimum.
@@ -49,30 +74,6 @@ Connecting TV to VPNTV's new WiFi network while VPNTV itself connected to your h
 
 - [**Raspios Lite (64-bit)**](https://downloads.raspberrypi.org/raspios_lite_arm64/images/) or [**Raspios Lite (32-bit)**](https://downloads.raspberrypi.org/raspios_lite_armhf/images/) for setup on Raspberry Pi Zero W (ver.1) boards.
 For the installation guide refer to [**Raspberry Pi Image configurtion**](https://github.com/d3vilh/vpntv-hardware/tree/main/imager-configuration) document.
-
-## Ethernet to WiFi bridge
-Connecting TV to VPNTV's new WiFi network while VPNTV connected to your home router by Ethernet cable.
-<img src="https://github.com/d3vilh/vpntv/raw/main/images/vpntv-wireless2.png" alt="wireless connection type2" width="350" border="1" /> 
-
-#### Hardware requirements:
-- [**Raspberry Pi Zero W**](https://www.raspberrypi.org/products/raspberry-pi-zero-w/) or [**Raspberry Pi Zero W2**](https://www.raspberrypi.org/products/raspberry-pi-zero-w-2/) board, all with 512Mb RAM minimum.
-- Or [**Raspberry Pi 4**](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/), [**Raspberry Pi CM4**](https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4001000) **and** [**CM4 I/O Board**](https://www.raspberrypi.com/products/compute-module-4-io-board/) or [**Raspberry Pi 3**](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/) board, all with 1Gb RAM minimum.
-- **8Gb SD Card**
-  > You can run vpntv on CM4 board with 4Gb eMMC EEPROM chip as well.
-
-- **USB Ethernet Hat** (for Raspberry Pi Zero W boards only)
-
-   <details>
-     <summary>
-       Supported (and tested) Raspberry Pi Zero W USB and Ethernet hats.
-     </summary>
-  
-  * [WaveShare ETH/USB HUB](https://www.waveshare.com/product/raspberry-pi/hats/interface-power/eth-usb-hub-hat-b.htm) HAT for RPi Zero. [Aliexpress link](https://a.aliexpress.com/_EJGKaqH)
-  * [Elecrow USB Hub & PowerManager](https://www.elecrow.com/usb-hub-powermanager-for-rpi-zero-v1-0.html) for RPi Zero V1.0. [Aliexpress link](https://a.aliexpress.com/_Exj5Rvf)
-</details>
-
-- [**Raspios Lite (64-bit)**](https://downloads.raspberrypi.org/raspios_lite_arm64/images/) or [**Raspios Lite (32-bit)**](https://downloads.raspberrypi.org/raspios_lite_armhf/images/) for setup on Raspberry Pi Zero W (ver.1) boards.
-For the installation guide refer to [**Raspberry Pi Image configurtion for Ethernet 2 WiFi**](https://github.com/d3vilh/vpntv-hardware/tree/main/imager-configuration/README-eth2wifi.md) document.
 
 ## WiFi to Ethernet bridge
 Connecting TV over Ethernet to VPNTV's Ethernet port, while VPNTV itself connected to your home WiFi network.
