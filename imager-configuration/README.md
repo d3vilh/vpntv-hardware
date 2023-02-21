@@ -25,7 +25,7 @@ Step-by-step instructions for configuring Raspberry Pi Image for use with the [V
 
 5. Click on the `"GEARBOX"` (Step3) icon to open the "Advanced Options" window and configure the following options:
    1. Set the hostname of your Raspberry Pi. For example, `vpntv`:
-    <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.1.png" alt="Step3.0" width="600" border="1" /> 
+      <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.1.png" alt="Step3.0" width="600" border="1" /> 
 
    2. Set the uniq password for the `vpntv` user. For example, `Uniqu3_pa$Sword!:|` do not configure WiFi SSID and go straight to the next step:
       > **Note**: **WiFi to WiFi** If you are using **Wireless Connection Type 2** - set the SSID of your local WiFi network which you are using for Internet conncetion. 
@@ -33,10 +33,10 @@ Step-by-step instructions for configuring Raspberry Pi Image for use with the [V
       <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.2.png" alt="Step3.1" width="600" border="1" />
 
    3. Set desired TimeZone and Keyboard layout:  
-    <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.3.png" alt="Step3.2" width="600" border="1" />
+      <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.3.png" alt="Step3.2" width="600" border="1" />
 
 6. Click on the `"WRITE"` (Step4!) button to start SD-CARD formatting and OS installation.:
-   <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.0.png" alt="RaspiOS Imager main window" width="600" border="1" />
+    <img src="https://github.com/d3vilh/vpntv-hardware/raw/main/Images/Imager-config.0.png" alt="RaspiOS Imager main window" width="600" border="1" />
 
 7. When verification process will be completed you will be prompted to remove the SD card from your computer and insert it into your Raspberry Pi. 
 
